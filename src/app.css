@@ -1,0 +1,12 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading1 {
+	@apply text-4xl font-serif;
+}
+
+.btn {
+	@apply font-bold p-4 rounded bg-red-500;
+}
